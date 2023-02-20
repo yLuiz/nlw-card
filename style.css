@@ -18,10 +18,12 @@ body {
 body {
   display: grid;
   place-items: center;
+  background-color: #000;
 }
 
 main {
-  background: url(images/background.svg);
+  background: url(images/background.svg) no-repeat center;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   min-height: 812px;
@@ -89,3 +91,5 @@ ul {
   gap: 0.5rem;
   justify-content: center;
 }
+
+@media (max-width: 768px) {}
